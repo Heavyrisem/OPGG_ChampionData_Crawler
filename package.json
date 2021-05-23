@@ -1,0 +1,27 @@
+{
+  "name": "opgg_championdata_crawler",
+  "version": "1.0.0",
+  "description": "op.gg 에서 챔피언, 라인, 라인별 룬(픽률이 높은 1개) 를 가져오는 코드입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/Crawler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heavyrisem/OPGG_ChampionData_Crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heavyrisem/OPGG_ChampionData_Crawler/issues"
+  },
+  "homepage": "https://github.com/Heavyrisem/OPGG_ChampionData_Crawler#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.29",
+    "@types/mongodb": "^3.6.16",
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "mongodb": "^3.6.8"
+  }
+}

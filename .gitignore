@@ -1,2 +1,5 @@
-./DB.json
-./test.js
+DB.json
+test.js
+dist
+node_modules
+package-lock.json
